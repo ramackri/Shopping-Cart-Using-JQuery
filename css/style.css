@@ -1,0 +1,293 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+blockquote,q {
+    quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content: '';
+    content: none;
+}
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+html,body,#layout {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #fbfbfb;
+    font-family: 'Droid Serif', serif;
+	background-image:url(../img/bg.jpg);
+}
+
+#basket {
+    padding: 5px;
+}
+
+.quantity {
+    height: 2.2em;
+    text-align: center;
+    width: 40px;
+}
+
+.quantityWrap .left,.quantityWrap .right {
+    float: left;
+}
+
+.quantityWrap .right {
+    width: 2em;
+}
+
+#basket .buttonQuantity {
+    background-color: #999;
+    border: 1px solid #ccc;
+    color: #FFF;
+    cursor: pointer;
+    display: none;
+    float: left;
+    font-size: .75em;
+    height: 1.2em;
+    line-height: 1.2em;
+    margin: 0;
+    text-align: center;
+    width: 1.2em;
+}
+
+#basket .buttonQuantity:focus,.remove img:focus,#content button:focus {
+    border: thin solid #000;
+}
+
+#basket .quantityplus {
+    margin-bottom: 2px;
+}
+
+#basket .quantityminus {
+    clear: both;
+}
+
+header {
+    margin-top: 5%;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 2.5em;
+    margin-top: 1.2em;
+    text-shadow: 1px 2px #d1d1d1;
+}
+
+header,#content {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42em;
+}
+
+#cart {
+    margin-top: 3.2em;
+}
+
+.even {
+    background: #f0e9e9;
+}
+
+#cart .boldLabel {
+    color: #000;
+    font-weight: 800;
+    text-align: left;
+}
+
+#cart .itemId {
+    display: none;
+}
+
+#cart .standardLabel,#cart .amt {
+    color: #999;
+    text-align: left;
+}
+
+#cart .amt {
+    text-align: right;
+}
+
+#cart thead th {
+    font-weight: 700;
+}
+
+#cart .topline {
+    border-top: 1px solid #999;
+}
+
+.firstColumn {
+    text-align: left;
+    width: 40%;
+}
+
+.secondColumn {
+    text-align: right;
+    width: 17.5%;
+}
+
+.thirdColumn {
+    text-align: center;
+    width: 17.5%;
+}
+
+.fourthColumn{
+    text-align: center;
+    width: 17.5%;
+}
+
+.fifthColumn {
+    width: 7.5%;
+}
+
+.sixColumn {
+    display: none;
+    width: 0;
+}
+
+#cart tbody td {
+    margin-top: 4px;
+    text-align: right;
+}
+
+.productItem,.separator {
+    height: 1.6em;
+    line-height: 1.6em;
+}
+
+#subTotal{
+	padding-top:1.4em;
+}
+
+#grandTotal{
+	padding-top:1.4em;
+	color:#000 !important;
+	font-weight:800;
+}
+
+.totalRow {
+    line-height: 1.4em;
+}
+
+.grandTotalRow {
+    line-height: 2em;
+	
+}
+
+.remove {
+    cursor: pointer;
+    display: none;
+    position: relative;
+    right: 12px;
+    top: 5px;
+}
+
+.quantityWrap {
+    float: right;
+}
+
+footer {
+    background-color: #666;
+    border-top: 1px solid #000;
+    bottom: 0;
+    color: #FFF;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+footer span {
+    font-weight: 700;
+}
+
+#noJS {
+    background-color: #666;
+    border-bottom: 1px solid #000;
+    clear: both;
+    color: #FFF;
+    float: left;
+    height: auto;
+    line-height: 40px;
+    margin: -5% 0 5%;
+    text-align: center;
+    width: 100%;
+}
+
+#content .itemName {
+    clear: both;
+    text-align: left;
+}
+
+#content .lbl {
+    display: none;
+}
+
+#content #buyout {
+    line-height: 4em;
+}
+
+#content button {
+    background: #000066;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #888;
+    color: #fefefe;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif!important;
+	font-weight:bold;
+    font-family: inherit;
+    font-size: 1.40em;
+    khtml-border-radius: 10px;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    moz-border-radius: 10px;
+    padding: .125em .5em;
+    padding: 10px 5px;
+    vertical-align: middle;
+    webkit-border-radius: 10px;
+    width: auto;
+}
